@@ -1,0 +1,28 @@
+/* Kill that skype plugin */
+body span.skype_pnh_dropart_span,
+body span.skype_pnh_right_span,
+body span.skype_pnh_left_span {
+	display: none !important;
+}
+
+body span.skype_pnh_container {
+	margin-left: -.38em !important;
+	margin-right: -.38em !important;
+}
+
+body span.skype_pnh_container, body span.skype_pnh_container * {
+	color: inherit !important;
+	font-family: inherit !important;
+	font-weight: inherit !important;
+	font-size: inherit !important;
+	letter-spacing: inherit !important;
+}
+
+body span.skype_pnh_container span.skype_pnh_text_span {
+	padding-left: 0 !important;
+}
+
+body span.skype_pnh_container span.skype_pnh_highlighting_inactive_common *,
+body span.skype_pnh_container span.skype_pnh_highlighting_active_common * {
+	background: none !important;
+}
